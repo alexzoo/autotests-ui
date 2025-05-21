@@ -1,12 +1,8 @@
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import expect, sync_playwright
 
-# Opening browser using Playwright
 with sync_playwright() as playwright:
-    # Launch Chromium browser in normal mode (not headless)
     browser = playwright.chromium.launch(headless=False)
-    # Create a new browser context (a new session that is isolated from others)
     context = browser.new_context()
-    # Open a new page within the context
     page = context.new_page()
 
     page.goto("https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/auth/registration")
@@ -23,7 +19,6 @@ with sync_playwright() as playwright:
     registration_button = page.get_by_test_id("registration-page-registration-button")
     registration_button.click()
 
-    # Save browser state (cookies and localStorage) to a file for future use
     context.storage_state(path="browser-state.json")
 
 
@@ -32,6 +27,12 @@ with sync_playwright() as playwright:
     context = browser.new_context(storage_state="browser-state.json")
     page = context.new_page()
 
-    page.goto("https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/dashboard")
+    page.goto("https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/courses")
 
-    page.wait_for_timeout(3000)
+    courses_title = page.get_by_test_id("courses-list-toolbar-title-text")
+    expect(courses_title).to_be_visible()
+    expect(courses_title).to_have_text("Courses")
+
+    no_results_title = page.get_by_test_id("courses-list-empty-view-title-text")
+    expect(no_results_title).to_be_visible()
+    expect(no_results_title).to_have_text("There is no results")
