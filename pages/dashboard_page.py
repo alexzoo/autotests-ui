@@ -13,21 +13,20 @@ class DashboardPage(BasePage):
 
         self.navbar = NavbarComponent(page)
         self.sidebar = SidebarComponent(page)
-        self.dashboard_toolbar_view = DashboardToolbarViewComponent(page)
-
         self.scores_chart_view = ChartViewComponent(page, "scores", "scatter")
         self.courses_chart_view = ChartViewComponent(page, "courses", "pie")
         self.students_chart_view = ChartViewComponent(page, "students", "bar")
         self.activities_chart_view = ChartViewComponent(page, "activities", "line")
+        self.dashboard_toolbar_view = DashboardToolbarViewComponent(page)
 
     def check_visible_students_chart(self):
         self.students_chart_view.check_visible("Students")
 
-    def check_visible_courses_chart(self):
-        self.courses_chart_view.check_visible("Courses")
-
     def check_visible_activities_chart(self):
         self.activities_chart_view.check_visible("Activities")
+
+    def check_visible_courses_chart(self):
+        self.courses_chart_view.check_visible("Courses")
 
     def check_visible_scores_chart(self):
         self.scores_chart_view.check_visible("Scores")

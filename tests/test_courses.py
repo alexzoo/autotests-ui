@@ -14,12 +14,13 @@ def test_empty_courses_list(courses_list_page: CoursesListPage):
     courses_list_page.check_visible_empty_view()
 
 
-@pytest.mark.regression
 @pytest.mark.courses
+@pytest.mark.regression
 def test_create_course(create_course_page: CreateCoursePage, courses_list_page: CoursesListPage):
     create_course_page.visit(
         "https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/courses/create"
     )
+
     create_course_page.create_course_toolbar_view.check_visible()
     create_course_page.image_upload_widget.check_visible(False)
     create_course_page.create_course_form.check_visible(
@@ -28,9 +29,9 @@ def test_create_course(create_course_page: CreateCoursePage, courses_list_page: 
     create_course_page.create_course_exercise_toolbar_view.check_visible()
     create_course_page.check_visible_exercises_empty_view()
     create_course_page.create_course_exercise_toolbar_view.click_create_exercise_button()
+
     create_course_page.image_upload_widget.upload_preview_image("./testdata/files/image.png")
     create_course_page.image_upload_widget.check_visible(True)
-
     create_course_page.create_course_form.fill(
         title="Playwright",
         estimated_time="2 weeks",
