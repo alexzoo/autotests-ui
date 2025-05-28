@@ -14,7 +14,7 @@ class CoursesListPage(BasePage):
 
         self.sidebar = SidebarComponent(page)
         self.navbar = NavbarComponent(page)
-        self.empty_view = EmptyViewComponent(page, "courses-list")
+        self.empty_view = EmptyViewComponent(page)
         self.course_view = CourseViewComponent(page)
         self.toolbar_view = CoursesListToolbarViewComponent(page)
 
@@ -22,4 +22,5 @@ class CoursesListPage(BasePage):
         self.empty_view.check_visible(
             title="There is no results",
             description="Results from the load test pipeline will be displayed here",
+            identifier="courses-list"
         )
