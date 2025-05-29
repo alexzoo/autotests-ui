@@ -9,7 +9,7 @@ class EmptyViewComponent(BaseComponent):
     def __init__(self, page: Page, identifier: str):
         super().__init__(page)
 
-        self.icon = Icon(page, f"{identifier}-empty-view-icon", "Icon")
+        self.icon = Icon(page, f"{identifier}-empty-view-icon", "Empty view")
         self.title = Text(page, f"{identifier}-empty-view-title-text", "Title")
         self.description = Text(page, f"{identifier}-empty-view-description-text", "Description")
 

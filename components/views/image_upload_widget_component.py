@@ -24,13 +24,13 @@ class ImageUploadWidgetComponent(BaseComponent):
         self.image_upload_info_icon = Icon(
             page,
             f"{identifier}-image-upload-widget-info-icon",
-            "Upload info",
+            "Upload widget",
         )
         self.image_upload_info_title = Text(
-            page, f"{identifier}-image-upload-widget-info-title-text", "Upload info"
+            page, f"{identifier}-image-upload-widget-info-title-text", "Upload title"
         )
         self.image_upload_info_description = Text(
-            page, f"{identifier}-image-upload-widget-info-description-text", "Upload info"
+            page, f"{identifier}-image-upload-widget-info-description-text", "Upload description"
         )
 
         self.upload_button = Button(
