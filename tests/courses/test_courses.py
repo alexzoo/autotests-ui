@@ -14,6 +14,9 @@ from tools.allure.stories import AllureStory
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.COURSES)
 @allure.story(AllureStory.COURSES)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.COURSES)
+@allure.sub_suite(AllureStory.COURSES)
 class TestCourses:
     @allure.severity(Severity.NORMAL)
     @allure.title("Empty courses list displaying")
