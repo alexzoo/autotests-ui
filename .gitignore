@@ -1,6 +1,8 @@
 # my
 .vscode
 allure-results
+tracing
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
