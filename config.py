@@ -33,7 +33,7 @@ class Settings(BaseSettings):
 
     app_url: HttpUrl
     headless: bool
-    browsers: list[Browser]
+    browsers: list[Browser] = [Browser.CHROMIUM]
     test_user: TestUser
     test_data: TestData
     videos_dir: DirectoryPath
