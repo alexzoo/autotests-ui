@@ -20,6 +20,7 @@ from tools.routes import AppRoute
 @allure.suite(AllureFeature.AUTHENTICATION)
 @allure.sub_suite(AllureStory.REGISTRATION)
 class TestRegistration:
+    @pytest.mark.xdist_group(name="authorization-group")
     @allure.severity(Severity.CRITICAL)
     @allure.title("Registration with correct email, username and password")
     def test_successful_registration(
