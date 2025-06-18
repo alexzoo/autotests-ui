@@ -3,6 +3,7 @@
 allure-results
 tracing
 videos
+browser-state.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
