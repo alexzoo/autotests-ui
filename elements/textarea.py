@@ -27,6 +27,7 @@ class Textarea(BaseElement):
             locator = self.get_locator(nth, **kwargs)
             logger.info(step)
             locator.fill(value)
+            
         self.track_coverage(ActionType.FILL, nth, **kwargs)
 
     def check_have_value(self, value: str, nth: int = 0, **kwargs):
