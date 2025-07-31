@@ -51,6 +51,16 @@ Run tests with Allure report generation:
 pytest -m regression --alluredir=allure-results
 ```
 
+Generate UI coverage report:
+```bash
+ui-coverage-tool save-report
+```
+
+View UI coverage report:
+```bash
+open coverage.html
+```
+
 ## Project Structure
 
 - `tests/` - test scenarios
@@ -59,13 +69,16 @@ pytest -m regression --alluredir=allure-results
 - `elements/` - base elements
 - `fixtures/` - pytest fixtures
 - `tools/` - utilities and helpers
+- `coverage-results/` - UI coverage data files
+- `tracing/` - Playwright trace files
+- `videos/` - test execution recordings
 
 ## Environment Configuration
 
 The project uses environment variables defined in `.env` file:
 
 ```properties
-APP_URL="https://nikita-filonov.github.io/qa-automation-engineer-ui-course"
+APP_URL="https://your-application-url.com"
 HEADLESS=true
 BROWSERS=["chromium"]
 
@@ -74,5 +87,30 @@ TEST_USER.USERNAME="username"
 TEST_USER.PASSWORD="password"
 
 TEST_DATA.IMAGE_PNG_FILE="./testdata/files/image.png"
+
+UI_COVERAGE_APPS='[
+    {
+        "key": "your-app-key",
+        "url": "https://your-application-url.com",
+        "name": "Your Application Name",
+        "tags": ["UI", "AUTOMATION"],
+        "repository": "https://github.com/your-username/your-repository"
+    }
+]'
+UI_COVERAGE_HTML_REPORT_FILE="./coverage.html"
 ```
 
+## UI Coverage Tool
+
+The project integrates `ui-coverage-tool` for tracking UI element interactions and generating coverage reports:
+
+- **Purpose**: Tracks which UI elements are being tested and how often
+- **Report Generation**: Creates visual HTML reports showing element usage statistics
+- **Integration**: Automatically tracks interactions with PageFactory elements
+- **History**: Maintains coverage history across test runs
+
+### Coverage Report Features:
+- Visual representation of element usage
+- Historical data tracking
+- Detailed statistics per UI component
+- Export capabilities for further analysis
