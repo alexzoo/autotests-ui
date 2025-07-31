@@ -5,6 +5,10 @@ tracing
 videos
 *.json
 
+#coverage
+coverage-results
+coverage.html
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
