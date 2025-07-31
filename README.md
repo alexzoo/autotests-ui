@@ -14,12 +14,7 @@ pip install -r requirements.txt
 playwright install
 ```
 
-3. Configure environment variables in `.env` file:
-- `APP_URL` - URL of the application under test
-- `HEADLESS` - browser execution mode (true/false)
-- `BROWSERS` - list of browsers for testing
-- `TEST_USER.*` - test user credentials
-- `TEST_DATA.*` - paths to test data files
+3. Configure environment variables (see [Environment Configuration](#environment-configuration) section)
 
 ## Running Tests
 
@@ -75,29 +70,33 @@ open coverage.html
 
 ## Environment Configuration
 
-The project uses environment variables defined in `.env` file:
+Create a `.env` file in the project root with the following variables:
 
 ```properties
-APP_URL="https://your-application-url.com"
-HEADLESS=true
-BROWSERS=["chromium"]
+# Application Configuration
+APP_URL="https://your-application-url.com"          # URL of the application under test
+HEADLESS=true                                        # Browser execution mode (true/false)
+BROWSERS=["chromium"]                                # List of browsers for testing
 
-TEST_USER.EMAIL="user.name@gmail.com"
-TEST_USER.USERNAME="username"
-TEST_USER.PASSWORD="password"
+# Test User Credentials
+TEST_USER.EMAIL="user.name@gmail.com"               # Test user email
+TEST_USER.USERNAME="username"                       # Test user username
+TEST_USER.PASSWORD="password"                       # Test user password
 
-TEST_DATA.IMAGE_PNG_FILE="./testdata/files/image.png"
+# Test Data
+TEST_DATA.IMAGE_PNG_FILE="./testdata/files/image.png"  # Path to test image file
 
-UI_COVERAGE_APPS='[
+# UI Coverage Tool Configuration
+UI_COVERAGE_APPS='[                                 # Applications configuration for coverage tracking
     {
-        "key": "your-app-key",
-        "url": "https://your-application-url.com",
-        "name": "Your Application Name",
-        "tags": ["UI", "AUTOMATION"],
-        "repository": "https://github.com/your-username/your-repository"
+        "key": "your-app-key",                      # Unique application identifier
+        "url": "https://your-application-url.com",  # Application URL
+        "name": "Your Application Name",            # Display name for reports
+        "tags": ["UI", "AUTOMATION"],               # Tags for categorization
+        "repository": "https://github.com/your-username/your-repository"  # Repository URL
     }
 ]'
-UI_COVERAGE_HTML_REPORT_FILE="./coverage.html"
+UI_COVERAGE_HTML_REPORT_FILE="./coverage.html"      # Path to generated HTML coverage report
 ```
 
 ## UI Coverage Tool
