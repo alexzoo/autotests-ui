@@ -1,0 +1,50 @@
+INFO     BASE_PAGE:base_page.py:19 Opening the url "AppRoute.COURSES_CREATE"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-title-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Title" to value "Course To Delete"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-estimated-time-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Estimated time" to value "3 weeks"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-description-input' at index '0'
+INFO     TEXTAREA:textarea.py:28 Fill textarea "Description" to value "Course for deletion test"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-max-score-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Max score" to value "80"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-min-score-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Min score" to value "30"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-image-upload-widget-input' at index '0'
+INFO     FILE_INPUT:file_input.py:19 Set file "testdata/files/image.png" to the file input "Upload"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-create-course-button' at index '0'
+INFO     BASE_ELEMENT:base_element.py:44 Clicking button "Create course"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-preview-image' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that image "Preview" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-widget-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-widget-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Title" has text "Course To Delete"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-max-score-info-row-view-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Max score" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-max-score-info-row-view-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Max score" has text "Max score: 80"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-min-score-info-row-view-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Min score" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-min-score-info-row-view-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Min score" has text "Min score: 30"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-estimated-time-info-row-view-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Estimated time" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-estimated-time-info-row-view-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Estimated time" has text "Estimated time: 3 weeks"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-view-menu-button' at index '0'
+INFO     BASE_ELEMENT:base_element.py:44 Clicking button "Menu"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-view-delete-menu-item' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that button "Delete" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-view-delete-menu-item' at index '0'
+INFO     BASE_ELEMENT:base_element.py:44 Clicking button "Delete"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-widget-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-icon' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that icon "Empty view" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Title" has text "There is no results"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-description-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Description" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-description-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Description" has text "Results from the load test pipeline will be displayed here"
