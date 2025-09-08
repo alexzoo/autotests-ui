@@ -1,0 +1,27 @@
+INFO     BASE_PAGE:base_page.py:19 Opening the url "AppRoute.COURSES"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-icon' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that icon "Empty view" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Title" has text "There is no results"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-description-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Description" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-description-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Description" has text "Results from the load test pipeline will be displayed here"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=course-view-menu-button' at index '0'
+INFO     BASE_ELEMENT:base_element.py:44 Clicking button "Menu"
+WARNING  COURSES_LIST_PAGE:courses_list_page.py:72 Course deletion timeout at index 0: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_test_id("course-view-menu-button").first
+
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-icon' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that icon "Empty view" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Title" has text "There is no results"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-description-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Description" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=courses-list-empty-view-description-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Description" has text "Results from the load test pipeline will be displayed here"
