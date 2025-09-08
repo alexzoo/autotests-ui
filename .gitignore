@@ -4,6 +4,12 @@ allure-results
 tracing
 videos
 *.json
+.claude/
+memory/
+scripts/
+templates/
+CLAUDE.md
+specs/
 
 #coverage
 coverage-results
