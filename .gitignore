@@ -10,6 +10,8 @@ scripts/
 templates/
 CLAUDE.md
 specs/
+sessions/
+CLAUDE.sessions.md
 
 #coverage
 coverage-results
