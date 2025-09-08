@@ -1,0 +1,39 @@
+INFO     BASE_PAGE:base_page.py:19 Opening the url "AppRoute.COURSES_CREATE"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-title-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Title" to value "Persistent Course"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-estimated-time-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Estimated time" to value "3 weeks"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-description-input' at index '0'
+INFO     TEXTAREA:textarea.py:28 Fill textarea "Description" to value "This is a test"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-max-score-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Max score" to value "80"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-min-score-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Min score" to value "20"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-title-input' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that input "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-title-input' at index '0'
+INFO     INPUT:input.py:37 Checking that input "Title" has a value "Persistent Course"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-estimated-time-input' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that input "Estimated time" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-estimated-time-input' at index '0'
+INFO     INPUT:input.py:37 Checking that input "Estimated time" has a value "3 weeks"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-description-input' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that textarea "Description" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-description-input' at index '0'
+INFO     TEXTAREA:textarea.py:38 Checking that textarea "Description" has a value "This is a test"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-max-score-input' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that input "Max score" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-max-score-input' at index '0'
+INFO     INPUT:input.py:37 Checking that input "Max score" has a value "80"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-min-score-input' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that input "Min score" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-min-score-input' at index '0'
+INFO     INPUT:input.py:37 Checking that input "Min score" has a value "20"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Title" has text "Create course"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-create-course-button' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that button "Create course" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-create-course-button' at index '0'
+INFO     BUTTON:button.py:31 Checking that button "Create course" is disabled

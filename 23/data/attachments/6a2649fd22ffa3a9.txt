@@ -1,0 +1,41 @@
+INFO     BASE_PAGE:base_page.py:19 Opening the url "AppRoute.COURSES_CREATE"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-title-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Title" to value "Valid Course Title"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-estimated-time-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Estimated time" to value "2 weeks"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-description-input' at index '0'
+INFO     TEXTAREA:textarea.py:28 Fill textarea "Description" to value "Valid course description"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-max-score-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Max score" to value "100"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-min-score-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Min score" to value "10"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Title" has text "Create course"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-create-course-button' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that button "Create course" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-create-course-button' at index '0'
+INFO     BUTTON:button.py:31 Checking that button "Create course" is disabled
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-image-upload-widget-info-icon' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that icon "Upload widget" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-image-upload-widget-info-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Upload title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-image-upload-widget-info-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Upload title" has text "Tap on "Upload image" button to select file"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-image-upload-widget-info-description-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Upload description" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-image-upload-widget-info-description-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Upload description" has text "Recommended file size 540X300"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-image-upload-widget-upload-button' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that button "Upload" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-empty-view-icon' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that icon "Empty view" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-empty-view-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-empty-view-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Title" has text "No image selected"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-empty-view-description-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Description" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-preview-empty-view-description-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Description" has text "Preview of selected image will be displayed here"

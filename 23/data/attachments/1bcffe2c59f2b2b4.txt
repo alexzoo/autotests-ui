@@ -1,0 +1,28 @@
+INFO     BASE_PAGE:base_page.py:19 Opening the url "AppRoute.REGISTRATION"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=registration-form-email-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Email" to value "user.name@gmail.com"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=registration-form-username-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Username" to value "username"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=registration-form-password-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Password" to value "password"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=registration-page-registration-button' at index '0'
+INFO     BASE_ELEMENT:base_element.py:44 Clicking button "Registration"
+INFO     BASE_PAGE:base_page.py:19 Opening the url "AppRoute.COURSES_CREATE"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-title-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Title" to value "Test Course"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-estimated-time-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Estimated time" to value "invalid format"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-description-input' at index '0'
+INFO     TEXTAREA:textarea.py:28 Fill textarea "Description" to value "Test description"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-max-score-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Max score" to value "100"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-form-min-score-input' at index '0'
+INFO     INPUT:input.py:27 Fill input "Min score" to value "10"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-title-text' at index '0'
+INFO     BASE_ELEMENT:base_element.py:64 Checking that text "Title" has text "Create course"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-create-course-button' at index '0'
+INFO     BASE_ELEMENT:base_element.py:54 Checking that button "Create course" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with 'data-testid=create-course-toolbar-create-course-button' at index '0'
+INFO     BUTTON:button.py:31 Checking that button "Create course" is disabled
